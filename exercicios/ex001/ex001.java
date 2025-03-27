@@ -1,6 +1,4 @@
-package exercicios.ex001;
-
-public class index001 {
+public class ex001 {
     public static void main (String[] args){
         double N1, N2, N3, N4, RES;
         N1 = Double.parseDouble(System.console().readLine());
