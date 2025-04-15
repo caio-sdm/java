@@ -3,9 +3,9 @@ public class ex003 {
         double nota, media, soma;
         int lidas;
         soma = 0;
-        lidas = 0;
+        lidas = 1;
 
-        System.out.printf("Para encerrar, digite um número negativo no lugar da nota :D\n");
+        System.out.println("Para encerrar, digite um número negativo no lugar da nota :D");
         System.out.print("Nota 1: ");
         nota = Double.parseDouble(System.console().readLine());
 
