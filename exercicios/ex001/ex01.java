@@ -1,4 +1,4 @@
-public class ex001 {
+public class ex01 {
     public static void main (String[] args){
         double N1, N2, N3, N4, RES;
         System.out.print("Digite sua primeira nota: ");

@@ -8,6 +8,6 @@ public class ex01 {
         n2 = Double.parseDouble(System.console().readLine());
 
         sub = n1 - n2;
-        System.out.printf("A subtação de %.2f por %.2f é igual a %.2f", n1, n2, sub);
+        System.out.printf("A subtração de %.2f por %.2f é igual a %.2f", n1, n2, sub);
     }
 }
