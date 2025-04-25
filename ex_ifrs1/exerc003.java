@@ -2,7 +2,7 @@ package ex_ifrs1;
 
 public class exerc003 {
     public static void main(String[]args){
-        double A,B,C,delta,bhaskara,x1,x2;
+        double A,B,C,delta,x1,x2;
 
         System.out.print("Digite o primeiro termo da equação (que acompanha o x²): ");
         A = Double.parseDouble(System.console().readLine());
@@ -15,8 +15,8 @@ public class exerc003 {
         if (delta < 0){
             System.out.print("A equação não tem raízes reais :(");
         } else if (delta == 0) {
-            bhaskara = (-B +- delta)/2;
-            System.out.printf("A raíz da equação é: S={%.2f}",bhaskara);
+            x1 = (-B + delta)/2;
+            System.out.printf("A raíz da equação é: S={%.2f}",x1);
         } else if (delta > 0){
             x1 = (-B + delta)/2;
             x2 = (-B - delta)/2;
