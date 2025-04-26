@@ -15,9 +15,13 @@ public class exerc008 {
 
         if (n1 < n2 && n1 < n3) {
             System.out.print(n1);
+        } else if (n1 == n2 || n1 == n3){
+            System.out.print(n1);
         }
 
         if (n2 < n1 && n2 < n3) {
+            System.out.print(n2);
+        } else if (n2 == n3){
             System.out.print(n2);
         }
 
