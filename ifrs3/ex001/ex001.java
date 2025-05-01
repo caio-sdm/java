@@ -1,4 +1,4 @@
-package ifrs3;
+package ifrs3.ex001;
 
 public class ex001 {
     public static void main (String[]args){
