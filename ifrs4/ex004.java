@@ -16,7 +16,7 @@ public class ex004 {
         if (delta > 1){
             eq1 = (-b + delta)/2;
             eq2 = (-b - delta)/2;
-            
+
             System.out.printf("\nAs raízes da equação são %.2f e %.2f\nS={%.2f,%.2f}",eq1,eq2,eq1,eq2);
 
         } else if(delta == 0){
