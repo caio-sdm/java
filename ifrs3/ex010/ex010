@@ -1,0 +1,34 @@
+algoritmo "ex010"
+inicio
+    inteiro x
+    real n1, n2, soma, quadrado
+
+    escreva("Menu de opções:")
+    escreval("1. Somar dois números.")
+    escreval("2. Número ao quadrado.")
+    escreval()
+    escreva("Digite a opção desejada (1 ou 2): ")
+    leia(x)
+
+    escolha x
+        caso 1:
+            escreva()
+            escreva("Digite o primeiro número: ")
+            leia(n1)
+
+            escreva("Digite o segundo número: ")
+            leia(n2)
+
+            soma <- n1 + n2
+
+            escreval("A soma de ", n1:2, " e ", n2:2, " é igual a ", soma:2)
+        caso 2:
+            escreva()
+            escreva("Digite o número: ")
+            leia(n1)
+
+            quadrado <- n1 * n1
+
+            escreval("O quadrado de ", n1:2, " é igual a ", quadrado:2)
+    fimescolha
+fimalgoritmo

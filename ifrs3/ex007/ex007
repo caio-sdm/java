@@ -1,0 +1,14 @@
+algoritmo "ex007"
+inicio
+    inteiro numero, quadrado, i
+    numero <- 15
+
+    para i de 15 ate 200 faca
+        quadrado <- numero * numero
+        escreval("O quadrado de ", numero, " é igual a ", quadrado)
+        numero <- numero + 1
+    fimpara
+
+    escreval()
+    escreval("Acabou :D")
+fimalgoritmo

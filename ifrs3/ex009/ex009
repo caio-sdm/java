@@ -1,0 +1,17 @@
+algoritmo "ex009"
+inicio
+    inteiro n, m, cont, prox
+    n <- 1
+    m <- 1
+    cont <- 2
+
+    escreva(m, ",", n, ",")
+
+    repita
+        prox <- n + m
+        escreva(prox, ",")
+        n <- m
+        m <- prox
+        cont <- cont + 1
+    ate cont = 10
+fimalgoritmo

@@ -50,6 +50,8 @@ public class ex001 {
             case 12:
                 System.out.printf("%d de Dezembro de %d",dia,ano);
                 break;
+            default:
+                System.out.print("Digite um mês válido");
         }
         if (dia == 25 && mes == 12){
             System.out.print("\nNatal! Ho Ho Ho");

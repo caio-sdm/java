@@ -1,0 +1,36 @@
+algoritmo "ex005"
+inicio
+    real litro, dist, consumo, somaconsumo, media
+    inteiro viagens, i
+
+    somaconsumo <- 0
+
+    escreval("Para encerrar, digite 0")
+    escreval()
+
+    escreva("Quantas viagens foram feitas? ")
+    leia(viagens)
+
+    se viagens = 0 entao
+        escreval()
+        escreval("Não foram feitas viagens :D")
+    fimse
+
+    se viagens > 0 entao
+        para i de 1 ate viagens faca
+            escreva()
+            escreva("Informe quantos litros gastos na viagem ", i, ": ")
+            leia(litro)
+
+            escreva("Informe quantos quilômetros rodados na viagem ", i, ": ")
+            leia(dist)
+
+            consumo <- dist / litro
+            somaconsumo <- somaconsumo + consumo
+        fimpara
+    fimse
+
+    media <- somaconsumo / viagens
+    escreval()
+    escreval("O consumo médio foi: ", media:2, " litros")
+fimalgoritmo

@@ -1,0 +1,42 @@
+algoritmo "ex001"
+
+inicio
+    var
+        inteiro dia, mes, ano
+
+    escrever "digite o dia: "
+    ler dia
+    escrever "digite o número do mês: "
+    ler mes
+    escrever "digite o ano: "
+    ler ano
+
+    escolha (mes)
+        caso 1:
+            escrever(dia + " de janeiro de " + ano)
+        caso 2:
+            escrever(dia + " de janeiro de " + ano)
+        caso 3:
+            escrever(dia + " de janeiro de " + ano)
+        caso 4:
+            escrever(dia + " de janeiro de " + ano)
+        caso 5:
+            escrever(dia + " de janeiro de " + ano)
+        caso 6:
+            escrever(dia + " de janeiro de " + ano)
+        caso 7:
+            escrever(dia + " de janeiro de " + ano)
+        caso 8:
+            escrever(dia + " de janeiro de " + ano)
+        caso 9:
+            escrever(dia + " de janeiro de " + ano)
+        caso 10:
+            escrever(dia + " de janeiro de " + ano)
+        caso 11:
+            escrever(dia + " de janeiro de " + ano)
+        caso 12:
+            escrever(dia + " de janeiro de " + ano)
+        outrocaso:
+            escrever "insira um mês válido"
+    fimescolha
+fimalgoritmo

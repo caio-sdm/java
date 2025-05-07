@@ -40,7 +40,8 @@ public class ex002 {
             case 9:
                 System.out.print("Vistoria em Dezembro do próximo ano");
                 break;
-
+            default:
+                System.out.print("Insira um valor válido");
         }
     }
 }

@@ -1,0 +1,15 @@
+algoritmo "ex003"
+
+inicio
+    inteiro n, soma, i
+    soma <- 0
+
+    para i de 1 até 10 faca
+        escreva("Forneça um número: ")
+        leia(n)
+        soma <- soma + n
+    fimpara
+
+    escreval()
+    escreval("A soma dos números é igual a: ", soma)
+fimalgoritmo

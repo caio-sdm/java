@@ -1,0 +1,33 @@
+algoritmo "ex004"
+inicio
+    inteiro n, soma, somaquad, i
+    real media
+
+    soma <- 0
+    somaquad <- 0
+    i <- 0
+
+    escreval("Para parar, digite um número negativo: ")
+
+    escreva("Digite um número: ")
+    leia(n)
+
+    enquanto n >= 0 faca
+        soma <- soma + n
+        somaquad <- somaquad + (n * n)
+        i <- i + 1
+
+        escreva("Digite um número: ")
+        leia(n)
+    fimenquanto
+
+    se i > 0 entao
+        media <- soma / i
+    senao
+        media <- 0
+    fimse
+
+    escreval("Soma: ", soma)
+    escreval("Soma dos quadrados: ", somaquad)
+    escreval("Média: ", media:2)
+fimalgoritmo
