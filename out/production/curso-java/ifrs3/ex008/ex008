@@ -1,0 +1,16 @@
+algoritmo "ex008"
+inicio
+    inteiro senha
+
+    repita
+        escreva()
+        escreva("Digite a senha: ")
+        leia(senha)
+
+        se senha <> 1234 entao
+            escreval("Senha errada")
+        fimse
+    ate senha = 1234
+
+    escreval("Senha correta, acesso liberado :D")
+fimalgoritmo

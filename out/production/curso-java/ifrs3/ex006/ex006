@@ -1,0 +1,29 @@
+algoritmo "ex006"
+inicio
+    real faturamento, precouni, precototal
+    inteiro mercadorias, quantuni, i
+    caractere nome
+
+    faturamento <- 0
+
+    escreva("Quantas mercadorias são comercializadas? : ")
+    leia(mercadorias)
+
+    para i de 1 ate mercadorias faca
+        escreva()
+        escreva("Nome da mercadoria ", i, ": ")
+        leia(nome)
+
+        escreva("Preço da mercadoria: ")
+        leia(precouni)
+
+        escreva("Quantas foram compradas: ")
+        leia(quantuni)
+
+        precototal <- precouni * quantuni
+        faturamento <- faturamento + precototal
+    fimpara
+
+    escreval()
+    escreval("O faturamento total foi de ", faturamento:2, " R$")
+fimalgoritmo

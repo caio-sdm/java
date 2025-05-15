@@ -1,6 +1,9 @@
-var
-    inteiro dia, mes, ano
+algoritmo "ex001"
+
 inicio
+    var
+        inteiro dia, mes, ano
+
     escrever "digite o dia: "
     ler dia
     escrever "digite o número do mês: "
@@ -33,5 +36,7 @@ inicio
             escrever(dia + " de janeiro de " + ano)
         caso 12:
             escrever(dia + " de janeiro de " + ano)
-    senão
-        escrever "insira um mês válido"
+        outrocaso:
+            escrever "insira um mês válido"
+    fimescolha
+fimalgoritmo

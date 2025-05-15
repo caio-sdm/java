@@ -1,0 +1,34 @@
+algoritmo "ex002"
+inicio
+    inteiro placa, fim
+
+    escreva("Escreva os dígitos da placa: ")
+    leia(placa)
+
+    fim <- placa % 10
+
+    escolha fim
+        caso 0:
+            escreval("Vistoria em Janeiro do próximo ano")
+        caso 1:
+            escreval("Vistoria em Fevereiro do próximo ano")
+        caso 2:
+            escreval("Vistoria em Março do próximo ano")
+        caso 3:
+            escreval("Vistoria em Abril do próximo ano")
+        caso 4:
+            escreval("Vistoria em Maio do próximo ano")
+        caso 5:
+            escreval("Vistoria em Junho do próximo ano")
+        caso 6:
+            escreval("Vistoria em Setembro do próximo ano")
+        caso 7:
+            escreval("Vistoria em Outubro do próximo ano")
+        caso 8:
+            escreval("Vistoria em Novembro do próximo ano")
+        caso 9:
+            escreval("Vistoria em Dezembro do próximo ano")
+        outrocaso:
+            escreval("Insira um valor válido")
+    fimescolha
+fimalgoritmo
