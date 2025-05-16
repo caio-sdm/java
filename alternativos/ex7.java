@@ -1,5 +1,5 @@
 package alternativos;
-
+//cinema 2
 public class ex7 {
     public static void main (String[]args){
         int idade, idadepessimo=0, espect = 1, idaderuim=0;
