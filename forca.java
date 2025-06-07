@@ -45,7 +45,6 @@ public class forca {
         char[] palavra = sorteiaPalavra();
         char[] tabuleiro = montaTabuleiro(palavra);
         int erros = 0;
-
         while (erros <=7 && !Arrays.equals(tabuleiro,palavra)){
             mostraTabuleiro(tabuleiro);
 
