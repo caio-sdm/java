@@ -15,7 +15,7 @@ public class ex011 {
                 System.out.println("É carnívoro? ");
                 resposta = System.console().readLine().charAt(0);
                 if (resposta == 'S' || resposta == 's'){
-                    System.out.print("É um Leão" + new String (Character.toChars(0x1F981)));
+                    System.out.print("É um Leão!" + new String (Character.toChars(0x1F981)));
                 }else{
                     System.out.println("É herbívoro?");
                     resposta = System.console().readLine().charAt(0);
