@@ -1,4 +1,4 @@
-package ex.ifrs1;
+package ex__ifrs1;
 //numero de sexo candidatos, idade media homens, idade media mulheres com exp.
 public class ex003 {
     public static void main(String[]args){

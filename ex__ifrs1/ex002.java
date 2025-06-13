@@ -1,4 +1,4 @@
-package ex.ifrs1;
+package ex__ifrs1;
 //letra da ação, preço de compra e venda. superiores a 1000 e inferiores a 200
 
 public class ex002 {

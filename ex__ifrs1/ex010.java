@@ -1,4 +1,4 @@
-package ex.ifrs1;
+package ex__ifrs1;
 
 public class ex010 {
     public static void main (String[]args){

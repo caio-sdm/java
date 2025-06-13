@@ -1,4 +1,4 @@
-package ex.ifrs1;
+package ex__ifrs1;
 /*ler idade sexo e salario;
 mostrar media de salario, maior e menor idade, mulheres com ate 1500, idade e sexo com menor salario.
 terminar ao idade negativa*/

@@ -1,4 +1,4 @@
-package ex.ifrs1;
+package ex__ifrs1;
 /*sexo,cor olhos, cor cabelo, idade, altura, peso;
 média da idade, media de peso e altura, porcentagem feminino, porcentagem masculino, olhos azuis *E* cabelos ruivos*/
 public class ex005 {
