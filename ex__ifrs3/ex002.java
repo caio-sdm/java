@@ -7,9 +7,9 @@ public class ex002 {
 
         for (int i = 0; i < matriz.length; i++){
             for (int j = 0; j < matriz.length; j++){
-                System.out.printf("Valor da linha %d, coluna %d: ",i+1,j+1);
-                matriz[i][j] = Integer.parseInt(System.console().readLine());
-                //matriz[i][j] = (int) (1 + Math.random()*100);
+                //System.out.printf("Valor da linha %d, coluna %d: ",i+1,j+1);
+                //matriz[i][j] = Integer.parseInt(System.console().readLine());
+                matriz[i][j] = (int) (1 + Math.random()*100);
 
                 if (i == j) {
                     soma += matriz[i][j];
