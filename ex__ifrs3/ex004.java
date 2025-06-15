@@ -18,7 +18,7 @@ public class ex004 {
         for (int i = 0; i < matriz.length; i++){
             System.out.printf("Candidato %d",i+1);
             for (int j = 0; j < matriz.length; j++){
-                //System.out.printf("Questão %d",j+1);
+                //System.out.printf("\nQuestão %d",j+1);
                 //matriz[i][j] = System.console().readLine().charAt(0);
                 matriz[i][j] = (char) ((Math.random()*5) + 'A');
             }
