@@ -1,4 +1,4 @@
-package ex_ifrs4;
+package ex__ifrs4;
 
 public class ex001 {
      public static long fatorial(int n){
