@@ -18,6 +18,6 @@ public class ex002 {
         for (int i = 0; i <= 15; i++){
             soma += (Math.pow(x,i)/fatorial(i));
         }
-        System.out.printf("e^x = %.2f",soma);
+        System.out.printf("e^x ≈ %.2f",soma);
     }
 }
